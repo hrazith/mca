@@ -51,6 +51,8 @@ a { text-decoration: none; }
     visibility: hidden;
 }
 
+.hide { display: none; }
+
 /* Login */
 .login {
 	width: 410px;
@@ -222,18 +224,21 @@ h2 {
 	line-height: 150%;
 }
 
-.noms { margin: 30px 0;}
+.nominations { margin: 30px 0;}
 .noms-list { margin-top: 30px;}
 .noms-list li { border-bottom: 1px solid #e8e8e8;}
 .nom-header { 
 	display: block;
-    padding: 22px 0 21px;
-    position: relative;
+	padding: 22px 0 21px;
+	position: relative;
 }
 .nom-reveal {
 	position: absolute;
-    right: 0;
-    top: 22px;
+	right: 0;
+	top: 22px;
+}
+.nom {
+	background: #fff;
 }
 
 
