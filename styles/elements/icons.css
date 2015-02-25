@@ -1,14 +1,13 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../../fonts/icomoon.eot?-kgswni');
-	src:url('../../fonts/icomoon.eot?#iefix-kgswni') format('embedded-opentype'),
-		url('../../fonts/icomoon.woff?-kgswni') format('woff'),
-		url('../../fonts/icomoon.ttf?-kgswni') format('truetype'),
-		url('../../fonts/icomoon.svg?-kgswni#icomoon') format('svg');
+	src:url('../../fonts/icomoon.eot?-jztd4f');
+	src:url('../../fonts/icomoon.eot?#iefix-jztd4f') format('embedded-opentype'),
+		url('../../fonts/icomoon.woff?-jztd4f') format('woff'),
+		url('../../fonts/icomoon.ttf?-jztd4f') format('truetype'),
+		url('../../fonts/icomoon.svg?-jztd4f#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
-
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
@@ -21,6 +20,18 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+	content: "\e60d";
+}
+
+.icon-repeat:before {
+	content: "\e60e";
+}
+
+.icon-trash:before {
+	content: "\e60f";
 }
 
 .icon-arrow-up:before {
